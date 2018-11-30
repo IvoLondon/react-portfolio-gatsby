@@ -4,6 +4,6 @@
   </a>
 </p>
 <h1 align="center">
-  Simple portfolio build in React Gatsby
+  Static portfolio build in React Gatsby
 </h1>
 <p>If you'd like to see it, please visit the following link to netlify: <a href="https://determined-visvesvaraya-b3d444.netlify.com/">https://determined-visvesvaraya-b3d444.netlify.com/</a></p>
