@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Sidebar from './Sidebar/Sidebar'
 import PageWrapper from './PageWrapper/PageWrapper'
-import './layout.css'
+import './layout.css' 
 
 const Layout = ({ children }) => (
   <StaticQuery

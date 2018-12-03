@@ -12,6 +12,7 @@ const Sidebar = ({ siteTitle }) => {
     }
     return (
         <div className={classes.Sidebar}>
+
             <ul className={classes.Navigation}>
                 <li>
                     <Link to="/" getProps={isPartiallyActive}>Home</Link>   
@@ -22,7 +23,7 @@ const Sidebar = ({ siteTitle }) => {
                 <li>
                     <Link to="/contact" getProps={isPartiallyActive}>Contact</Link>   
                 </li>
-            </ul>
+            </ul> 
         </div>
     )
 }

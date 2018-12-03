@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@svgr/webpack": "^4.1.0",
     "gatsby": "^2.0.53",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-catch-links": "^2.0.9",
@@ -12,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.0.3",
     "gatsby-plugin-sass": "^2.0.5",
     "gatsby-plugin-sharp": "^2.0.12",
+    "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.15",
     "gatsby-transformer-sharp": "^2.1.8",
