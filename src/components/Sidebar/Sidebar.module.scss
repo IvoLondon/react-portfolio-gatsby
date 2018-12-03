@@ -5,4 +5,15 @@
 	width:100%;
 	background-image:url('./../../assets/images/sidebar-background.jpg');
 	background-size:cover;
+	.Navigation {
+		li {
+			a {
+				text-decoration:none;
+				color:green;
+				&.active {
+					color:pink;
+				}
+			}
+		}
+	}
 }	
