@@ -1,0 +1,13 @@
+.PageWrapper {
+	height:100vh;
+	padding:0 50px;
+	float: left;
+	max-width:60%;
+	width:100%;
+	position:relative;
+}
+.PageWrapperContainer {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
