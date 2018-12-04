@@ -6,10 +6,10 @@ import Layout from '../components/layout'
 const ContactPage = () => (
   <Layout>
     <h1>Get in touch</h1>
-   	<form name="contact" netlify>
-   		<input placeHolder="Name" type="text" />
-   		<input placeHolder="email" type="email"  />
-   		<textarea placeHolder="Message"></textarea>
+   	<form name="contact" netlify method="POST">
+   		<input placeHolder="Name" type="text" name="name" />
+   		<input placeHolder="email" type="email" name="email" />
+   		<textarea placeHolder="Message" name="message"></textarea>
    		<input type="submit" placeHolder="Submit" />
    	</form>
     <Link to="/">Go back to the homepage</Link>
