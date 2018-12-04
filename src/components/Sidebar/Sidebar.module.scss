@@ -1,19 +1,125 @@
 .Sidebar {
-	max-width: 40%;
+	max-width: 100%;
 	float:left;
-	height:100vh;
+	text-align:center;
 	width:100%;
 	background-image:url('./../../assets/images/sidebar-background.jpg');
 	background-size:cover;
+	position:relative;
+	padding:20px 30px;
+	overflow:hidden;
+	img.Logo {
+		position:relative;
+		margin:0 auto 20px;
+		display:block;
+	}
+	h2 {
+		position:relative;
+		color:white;
+		max-width:450px;
+		font-size:14px;
+		font-weight:500;
+		display:inline-block;
+		span {
+			color:#939393;
+			a {
+				color:#FFE001;
+				text-decoration:none;
+				transition:0.2s ease-in-out all;
+				&:hover {
+					color:#FFF;
+				}
+			}
+		}
+	}
 	.Navigation {
+		z-index:1;
+		position:relative;
+		list-style:none;
+		padding:0;
+		margin:0;
+		text-align:center;
 		li {
+			display:inline-block;
 			a {
 				text-decoration:none;
-				color:green;
+				color:#FFF;
+				margin:0 15px;
 				&.active {
-					color:pink;
+					color:#FFE001;
+				}
+			}
+		}
+	}
+	.Social {
+		position:relative;
+		list-style:none;
+		padding:0;
+		margin:0;
+		text-align:right;
+		li {
+			display:inline-block;
+			a {
+				&.social_link {
+					i {
+						display:inline-block;
+						width:34px;
+						height:32px;
+						background-image:url('./../../assets/svg/sprites.svg');
+						background-position:1px 1px;
+						transition:0.2s ease-in-out all;
+						transform:scale(0.7);
+					}
+				}
+				&.website {
+					i {
+						background-position:0px -2px;
+					}
+				}
+				&.github {
+					i {
+						background-position:-128px -2px;
+					}
+				}
+				&.email {
+					i {
+						background-position:-64px -2px;
+					}
+				}
+				&:hover {
+					i {
+						transform:scale(1);
+					}
 				}
 			}
 		}
 	}
 }	
+
+
+@media screen and (min-width:992px) {
+	.Sidebar {
+		max-width: 40%;
+		height:100vh;
+		text-align:right;
+		img.Logo {
+			margin:0 0 15% auto;
+		}
+		h2 {
+			font-size:15px;
+			max-width:350px;
+		}
+		.Navigation {
+			li {
+				display:block;
+				text-align:right;
+				a {
+					margin:8px 0;
+				}
+			}
+		}
+		.Social {
+			margin-top:20%;
+		}
+	}
+}
