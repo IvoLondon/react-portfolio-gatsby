@@ -6,12 +6,26 @@ import Layout from '../components/layout'
 const ContactPage = () => (
   <Layout>
     <h1>Get in touch</h1>
-   	<form name="contact" netlify method="POST">
-   		<input placeHolder="Name" type="text" name="name" />
-   		<input placeHolder="email" type="email" name="email" />
-   		<textarea placeHolder="Message" name="message"></textarea>
-   		<input type="submit" placeHolder="Submit" />
-   	</form>
+   	<form name="contact" method="POST" netlify>
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Your Role: <select name="role[]" multiple>
+          <option value="leader">Leader</option>
+          <option value="follower">Follower</option>
+        </select></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
