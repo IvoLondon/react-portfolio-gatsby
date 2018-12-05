@@ -2,33 +2,29 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import classes from './../assets/scss/Contact.module.scss'
 
 const ContactPage = () => (
 
   <Layout>
-    <h1>Get in touch</h1>
-   	<form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
-      <input type="hidden" name="form-name" value="contact" />
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>   
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Your Role: <select name="role[]" multiple>
-          <option value="leader">Leader</option>
-          <option value="follower">Follower</option>
-        </select></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
-    <Link to="/">Go back to the homepage</Link>
+    <div className="">
+      <h1>Get in touch</h1>
+     	<form name="contact" method="post" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <p>
+          <input placeHolder="Your Name" type="text" name="name" />   
+        </p>
+        <p>
+          <input placeHolder="Your Email" type="email" name="email" />
+        </p>
+        <p>
+          <textarea placeHolder="Message" name="message"></textarea>
+        </p>
+        <p>
+          <button className="button-one" type="submit">Send</button>
+        </p>
+      </form>
+    </div>
   </Layout>
 )
  

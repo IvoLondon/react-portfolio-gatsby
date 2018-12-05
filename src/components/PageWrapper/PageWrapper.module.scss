@@ -1,19 +1,21 @@
 .PageWrapper {
 	height:100vh;
-	padding:0 50px;
+	padding:50px;
 	float: left;
-	
 	width:100%;
 	position:relative;
+	overflow:scroll;
 }
 .PageWrapperContainer {
 	position:relative;
-	top:50%;
-	transform:translateY(-50%);
+	h1, h2, h3, h4, h5, h6, p, span {
+		color:#787878;
+	}
 }
 
 @media screen and (min-width:992px) {
 	.PageWrapper {
+		padding:50px;
 		max-width:60%;
 		height:100vh;
 	}

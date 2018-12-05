@@ -231,9 +231,9 @@ h1 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 h2 {
@@ -247,7 +247,7 @@ h2 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -263,7 +263,7 @@ h3 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -279,7 +279,7 @@ h4 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -295,7 +295,7 @@ h5 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -311,7 +311,7 @@ h6 {
   margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
@@ -617,4 +617,21 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+.button-one {
+  display:inline-block;
+  border:4px solid #EFEFEF;
+  text-decoration: none;
+  font-size:18px;
+  border-radius: 4px;
+  padding:4px 12px;
+  color:#787878;
+  transition:0.2s ease-in-out all;
+
+}
+.button-one:hover {
+  color:#FFE001;
+  border-color: #FFE001;
 }
