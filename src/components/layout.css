@@ -622,12 +622,12 @@ pre tt:after {
 
 .button-one {
   display:inline-block;
-  border:4px solid #EFEFEF;
+  border:4px solid #DBDBDB;
   text-decoration: none;
   font-size:18px;
   border-radius: 4px;
   padding:4px 12px;
-  color:#787878;
+  color:#D1D1D1;
   transition:0.2s ease-in-out all;
 
 }

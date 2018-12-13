@@ -3,6 +3,9 @@ const Promise = require(`bluebird`)
 const path = require('path');
 const slash = require(`slash`)
 
+
+
+// BLOG
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
@@ -46,7 +49,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 }
 
 
-
+// PROJECTS FROM WP
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
@@ -89,5 +92,4 @@ exports.createPages = ({ graphql, actions }) => {
       resolve()
     })
   })
-
 }

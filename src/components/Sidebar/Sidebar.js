@@ -6,6 +6,7 @@ import Filter from './UI/Filter/Filter'
 
 const Sidebar = ({ siteTitle }) => {
     const isActive = ({isCurrent}) => {
+        console.log(isCurrent);
           return isCurrent ? { className: classes.active } : null
     }
     return (
@@ -20,6 +21,9 @@ const Sidebar = ({ siteTitle }) => {
                 </li>
                 <li>
                     <Link to="/projects" getProps={isActive}>Projects</Link>   
+                </li>
+                 <li>
+                    <Link to="/blog" getProps={isActive}>Blog</Link>   
                 </li>
                 <li>
                     <Link to="/contact" getProps={isActive}>Contact</Link>   

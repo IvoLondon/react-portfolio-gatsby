@@ -1,0 +1,37 @@
+.Blogs {
+	.BlogList {
+		padding:0;
+		margin:0;
+		.Blog {
+			width:100%;
+			vertical-align:top;
+			display:inline-block;
+			overflow:hidden;
+			position:relative;
+			margin:0;
+			padding:15px 0;
+			border-bottom:1px solid #DBDBDB;
+			a {
+				color:#050505;
+				text-decoration:none;
+			}
+			span {
+				display:block;
+				font-size:12px;
+			}
+			
+		}
+	}
+}
+
+@media screen and (min-width:992px) {
+	.Blogs {
+		.BlogList {
+			li {
+				img {
+				
+				}
+			}
+		}
+	}
+}
