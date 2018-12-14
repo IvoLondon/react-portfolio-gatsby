@@ -1,18 +1,18 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import classes from '../assets/scss/Home.module.scss'
 import Layout from '../components/layout'
 import Image from '../components/image'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '50px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+  	<div className={classes.Home}> 
+	    <div className={classes.HomeImage}>
+	      <Image />
+	    </div>
+	    <h1>"hello from the other siiiideee..."</h1>
+	    <p>I have created this portfolio, just for fun. Browse around it and enjoy it as much as I did when I was building it. Don't forget to say 'hi' before you leave. </p>
+	</div>
   </Layout>
 )
 
