@@ -20,4 +20,5 @@
   <li>gatsby-transformer-sharp</li>
 </ul>
 
-<p>Don't forget to drop me a message on the contact form. Enjoy! (:</p>
+<p>Don't forget to drop me a message on the contact form before you leave. Enjoy! (:</p>
+<p><i>PS: Don't judge the look of it, it is a freestyle design.<i></p>
