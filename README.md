@@ -22,3 +22,6 @@
 
 <p>Don't forget to drop me a message on the contact form before you leave. Enjoy! (:</p>
 <p><i>PS: Don't judge the look of it, it is a freestyle design.<i></p>
+
+
+![Ivelin Iliev gatsby portfolio screenshot](https://user-images.githubusercontent.com/20727684/50686100-dc6c0300-1013-11e9-8c89-a7ad3f8a2487.png)
